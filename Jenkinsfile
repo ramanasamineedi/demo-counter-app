@@ -84,9 +84,9 @@ pipeline{
                         credentialsId: '4eb3b103-c99a-4859-815e-bea48e4230e2', 
                         groupId: 'com.example', 
                         nexusUrl: '54.214.215.135:8081/', 
-                        nexusVersion: 'nexus3', 
+                        nexusVersion: 'nexus2', 
                         protocol: 'http', 
-                        repository: 'http://54.214.215.135:8081/repository/demo-release/', 
+                        repository: 'http://54.214.215.135:8081/repository/demo-snapshot/', 
                         version: '1.0.0'
                 }
             }
