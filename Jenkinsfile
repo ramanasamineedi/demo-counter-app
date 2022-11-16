@@ -2,6 +2,10 @@ pipeline{
     
     agent any 
     
+    tools{
+        maven 'Maven-3.6.1'
+    }
+    
     stages {
         
         stage('Git Checkout'){
